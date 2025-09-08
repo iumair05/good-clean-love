@@ -1,6 +1,41 @@
-@font-face {
+/* @font-face {
   font-family: 'CircularXX';
   src: url(../asset//fonts//CircularXX-Regular.otf);
+} */
+
+@font-face {
+  font-family: 'CircularXX';
+  src: url('../asset/fonts/CircularXX-Regular.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularXX';
+  src: url('../asset/fonts/CircularXX-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularXX';
+  src: url('../asset/fonts/Recoleta-SemiBold.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularXX';
+  src: url('../asset/fonts/CircularXX-Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularXX';
+  src: url('../asset/fonts/CircularXX-ExtraBlack.otf');
+  font-weight: 800;
+  font-style: normal;
 }
 
 :root {
@@ -9,6 +44,7 @@
   --light-primary-color: #dbedea;
   --text-color: white;
   --container-width: 1440px;
+  --border-color: #69c04b;
 }
 
 * {
@@ -22,8 +58,15 @@ a {
   text-decoration: none;
   color: inherit;
 }
+ul {
+  list-style: none;
+}
 
 img {
+  cursor: pointer;
+}
+
+button {
   cursor: pointer;
 }
 
@@ -31,7 +74,7 @@ img {
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
-  letter-spacing: -0.26px;
+  letter-spacing: -1.26px;
   color: var(--primary-color);
 }
 
@@ -44,11 +87,15 @@ img {
 }
 
 .main-btn {
+  font-family: CircularXX;
   background-color: var(--primary-color);
   color: var(--text-color);
+   border: none;
+  border-radius: 30px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 2.4px;
   cursor: pointer;
+  text-transform: uppercase;
 }

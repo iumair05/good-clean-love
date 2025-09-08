@@ -4,8 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  padding: 0 10px;
+  gap: 36px;
 }
 
 .bio-match-left {
@@ -28,14 +27,6 @@
   margin-top: 40px;
   width: 201px;
   height: 38px;
-  border-radius: 30px;
-  background-color: var(--primary-color);
-  color: white;
-  border: none;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 20px;
-  text-transform: uppercase;
 }
 
 .bio-match-right {
@@ -58,6 +49,7 @@
     flex-direction: column;
     padding: 0 18px;
     margin: 36px auto 0 auto;
+    gap: 72px;
   }
 
   .bio-match-left {
@@ -77,17 +69,12 @@
 
   .bio-match-left button {
     margin-top: 36px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 2.4px;
   }
 
   .bio-match-right {
     width: 100%;
     height: 300px;
     margin: 0 auto;
-    border-radius: 20px;
     overflow: hidden;
   }
 

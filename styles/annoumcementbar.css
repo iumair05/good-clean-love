@@ -1,0 +1,54 @@
+/* Announcement bar */
+.announcment-section {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  height: 40px;
+}
+
+.announcment-section .announcment-text {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--text-color);
+  margin-left: 36px;
+}
+
+.announcment-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.announcment-btn {
+  background-color: #dbedea;
+  max-width: 225px;
+  height: 36px;
+  padding: 0 15px 0 26px;
+}
+
+.announcment-btn h6 {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 18px;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .announcment-section {
+    justify-content: center;
+  }
+
+  .announcment-section .announcment-text {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .announcment-btn {
+    display: none;
+  }
+}

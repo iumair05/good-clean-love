@@ -1,0 +1,140 @@
+.blogs-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 36px auto 0 auto;
+  padding: 0 72px;
+  max-width: var(--container-width);
+  width: 100%;
+}
+
+.blogs-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blogs-header p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  border-bottom: 1px solid var(--border-color);
+  outline-offset: 2px;
+}
+
+.blogs-middle-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--border-color);
+  margin: 36px 0;
+}
+
+.blogs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 48px;
+  margin-top: 36px;
+}
+
+.blog-card img {
+  max-width: 400px;
+  width: 100%;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.blog-card {
+  max-width: 400px;
+  width: 100%;
+}
+
+.blog-card h3 {
+  margin-top: 36px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.84px;
+  color: var(--primary-color);
+}
+
+.blog-card p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.blog-card button {
+  margin-top: 36px;
+  width: 150px;
+  height: 38px;
+}
+
+.blogs-container-mobile {
+  display: none;
+}
+
+/* Best Seller Section for mobile */
+@media screen and (max-width: 768px) {
+  .blogs-section {
+    padding: 0 18px;
+  }
+
+  .blogs-header {
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .blogs-middle-line {
+    display: none;
+  }
+
+  .blogs-container {
+    display: none;
+  }
+
+  .blogs-container-mobile {
+    display: block;
+    width: 100%;
+    margin: 39px auto 0 auto;
+  }
+
+  .blogs-swiper-inner {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .blogsSwiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .blogsSwiper .swiper-slide {
+    max-width: 323px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .blog-card {
+    max-width: 323px;
+  }
+
+  .blog-card img {
+    width: 323px;
+    height: 357px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+  }
+
+  .blog-card h3 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.48px;
+  }
+}

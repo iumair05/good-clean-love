@@ -1,16 +1,17 @@
 .tags-slider {
   overflow: hidden;
-  margin-top: 36px;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  position: relative;
+  max-width: var(--container-width);
+  margin: 36px auto 0 auto;
 }
 
 .tags-track {
   display: flex;
-  gap: 24px;
+  gap: 60px;
   width: max-content;
-  animation: scroll 20s linear infinite;
+  position: relative;
+  left: 0;
 }
 
 .tags-track img {
@@ -19,17 +20,15 @@
   flex-shrink: 0;
 }
 
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-
 @media screen and (max-width: 768px) {
   .tags-slider {
     margin: 13px auto;
+  }
+  .tags-track {
+    gap: 36px;
+  }
+  .tags-track img {
+    max-width: 102px;
+    height: 52px;
   }
 }

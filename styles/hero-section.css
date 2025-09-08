@@ -1,9 +1,9 @@
-/* Hero Section for video */
-
 .hero-section {
   position: relative;
-  height: 100vh;
+  height: 800px;
   overflow: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-video-bg {
@@ -17,25 +17,29 @@
 }
 
 .hero-content {
-  position: relative;
+  position: absolute;
+  bottom: 72px;
+  left: 103px;
   z-index: 1;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  padding: 0 0 72px 103px;
+}
+
+.hero-swiper {
+  width: 100%;
+  max-width: 559px;
 }
 
 .hero-content-card {
   background-color: var(--primary-color);
   max-width: 559px;
-  height: 290px;
+  max-height: 290px;
+  height: 100%;
   padding: 48px;
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 36px;
 }
 
 .hero-content-card h1 {
@@ -49,14 +53,40 @@
 .hero-content-card button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
   letter-spacing: 2.4px;
   text-transform: uppercase;
   border-radius: 30px;
+  line-height: 20px;
+
   border: none;
   color: var(--primary-color);
   width: 143px;
   height: 38px;
+  cursor: pointer;
+}
+
+.hero-swiper .swiper-pagination {
+  position: relative;
+  margin-top: 18px;
+  text-align: left;
+  margin-left: 18px;
+}
+
+.hero-swiper .swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  background: white;
+  opacity: 1;
+  border-radius: 50%;
+  margin: 0 6px;
+  transition: all 0.3s ease;
+}
+
+.hero-swiper .swiper-pagination-bullet-active {
+  background: transparent;
+  border: 2px solid white;
+  width: 13px;
+  height: 13px;
 }
 
 @media (max-width: 768px) {
@@ -65,10 +95,22 @@
   }
 
   .hero-content {
+    position: static;
+    display: flex;
     justify-content: center;
     align-items: start;
-    padding: 20px;
+    padding: 22px 18px;
     text-align: center;
+  }
+
+  .hero-swiper {
+    max-width: 100%;
+  }
+
+  .hero-swiper .swiper-pagination {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 0;
   }
 
   .hero-content-card {
@@ -77,10 +119,12 @@
     gap: 18px;
     padding: 36px;
     height: auto;
+    border-radius: 30px;
   }
 
   .hero-content-card h1 {
     font-size: 36px;
     line-height: 40px;
+    letter-spacing: -0.32px;
   }
 }
