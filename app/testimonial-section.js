@@ -8,20 +8,34 @@ const testimonialSwiper = new Swiper(".testimonialSwiper", {
     breakpoints: {
         300: {
             slidesPerView: 1,
-            spaceBetween: 36,
+            spaceBetween: 9,
         },
 
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 9,
+        },
         375: {
-            slidesPerView: 1.1,
-            spaceBetween: 36,
-        },
-        475: {
             slidesPerView: 1.25,
-            spaceBetween: 36,
+            spaceBetween: 9,
         },
+        425: {
+            slidesPerView: 1.4,
+            spaceBetween: 9,
+        },
+
         768: {
             slidesPerView: 1.5,
-            spaceBetween: 36,
+            spaceBetween: 9,
+        },
+
+        992: {
+            slidesPerView: 1.6,
+            spaceBetween: 9,
+        },
+        1240: {
+            slidesPerView: 1.9,
+            spaceBetween: 9,
         },
     }
 });

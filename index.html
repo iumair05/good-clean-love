@@ -27,1023 +27,1090 @@
 
     <!-- Announcment bar -->
     <section class="announcment-section">
-        <h6 class="announcment-text">Announcement Bar</h6>
-        <a href="https://www.google.com/" target="_blank" class="announcment-btn">
-            <h6>Healthcare Providers</h6>
-            <img src="/asset/icons/announcement-btn-arrow.svg" />
-        </a>
+
+        <div class="announcment-container">
+            <h6 class="announcment-text">Announcement Bar</h6>
+            <a href="https://www.google.com/" target="_blank" class="announcment-btn">
+                <h6>Healthcare Providers</h6>
+                <img src="/asset/icons/announcement-btn-arrow.svg" />
+            </a>
+        </div>
+
     </section>
 
     <!-- Header -->
-    <header class="header">
+    <div class="header-secion">
+        <header class="header">
 
-        <div class="header-desktop">
+            <div class="header-desktop">
 
-            <div class="header-logo">
-                <img src="/asset/icons/logo.svg" alt="logo" />
+                <div class="header-logo">
+                    <img src="/asset/icons/logo.svg" alt="logo" />
+                </div>
+
+                <!-- nav links -->
+                <nav>
+                    <ul class="nav-items">
+
+                        <li class="shops-dropdown">
+                            <span class="shops-dropbtn">Shops
+
+                                <img src="/asset/icons/arrow-down.svg" alt="arrow down">
+
+                            </span>
+
+                            <ul class="shops-dropdown-content">
+                                <li><a href="https://www.google.com" target="_blank">Link 1</a></li>
+                                <li><a href="https://www.google.com" target="_blank">Lin 2</a></li>
+                                <li><a href="https://www.google.com" target="_blank">Link 3</a></li>
+                                <li><a href="https://www.google.com" target="_blank">Link 4</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="https://www.google.com" target="_blank">Bundles</a></li>
+
+                        <li class="about-dropdown">
+                            <span class="about-dropbtn">About Us
+
+                                <img src="/asset/icons/arrow-down.svg" alt="arrow down">
+
+                            </span>
+
+                            <ul class="about-dropdown-content">
+                                <li><a href="https://www.google.com" target="_blank">Link 1</a></li>
+                                <li><a href="https://www.google.com" target="_blank">Link 2</a></li>
+                                <li><a href="https://www.google.com" target="_blank">Link 3</a></li>
+                                <li><a href="https://www.google.com" target="_blank">Link 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://www.google.com" target="_blank">Education</a></li>
+                    </ul>
+                </nav>
+
+                <div class="right-items">
+                    <img class="search-icon" src="/asset//icons/search-icon.svg" alt="">
+                    <img class="person-icon" src="/asset//icons/person-icon.svg" alt="">
+                    <div class="cart">
+                        <img class="cart-icon" src="/asset//icons/cart-icon.svg" alt="">
+                        <div class="cart-badge">1</div>
+                    </div>
+                </div>
             </div>
 
-            <!-- nav links -->
-            <nav>
-                <ul class="nav-items">
-
-                    <li class="shops-dropdown">
-                        <span class="shops-dropbtn">Shops
-
-                            <img src="/asset/icons/arrow-down.svg" alt="arrow down">
-
-                        </span>
-
-                        <ul class="shops-dropdown-content">
-                            <li><a href="https://www.google.com" target="_blank">Link 1</a></li>
-                            <li><a href="https://www.google.com" target="_blank">Lin 2</a></li>
-                            <li><a href="https://www.google.com" target="_blank">Link 3</a></li>
-                            <li><a href="https://www.google.com" target="_blank">Link 4</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="https://www.google.com" target="_blank">Bundles</a></li>
-
-                    <li class="about-dropdown">
-                        <span class="about-dropbtn">About Us
-
-                            <img src="/asset/icons/arrow-down.svg" alt="arrow down">
-
-                        </span>
-
-                        <ul class="about-dropdown-content">
-                            <li><a href="https://www.google.com" target="_blank">Link 1</a></li>
-                            <li><a href="https://www.google.com" target="_blank">Link 2</a></li>
-                            <li><a href="https://www.google.com" target="_blank">Link 3</a></li>
-                            <li><a href="https://www.google.com" target="_blank">Link 4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="https://www.google.com" target="_blank">Education</a></li>
-                </ul>
-            </nav>
-
-            <div class="right-items">
-                <img class="search-icon" src="/asset//icons/search-icon.svg" alt="">
-                <img class="person-icon" src="/asset//icons/person-icon.svg" alt="">
+            <!-- nabar for mobile -->
+            <div class="header-mobile">
+                <img class="menu-icon" id="menuForMobile" src="/asset/icons/menu-icon.svg" alt="">
+                <img class="logo" src="/asset//icons//logo.svg" alt="">
                 <div class="cart">
                     <img class="cart-icon" src="/asset//icons/cart-icon.svg" alt="">
                     <div class="cart-badge">1</div>
                 </div>
             </div>
-        </div>
 
-        <!-- nabar for mobile -->
-        <div class="header-mobile">
-            <img class="menu-icon" id="menuForMobile" src="/asset/icons/menu-icon.svg" alt="">
-            <img class="logo" src="/asset//icons//logo.svg" alt="">
-            <div class="cart">
-                <img class="cart-icon" src="/asset//icons/cart-icon.svg" alt="">
-                <div class="cart-badge">1</div>
-            </div>
-        </div>
+            <!-- Backdrop -->
 
-        <!-- Backdrop -->
+            <!-- Mobile Drawer -->
+            <nav id="mobileMenu" class="mobile-menu" aria-hidden="true">
+                <button id="closeDrawer" class="close-btn" aria-label="Close Menu">×</button>
 
-        <!-- Mobile Drawer -->
-        <nav id="mobileMenu" class="mobile-menu" aria-hidden="true">
-            <button id="closeDrawer" class="close-btn" aria-label="Close Menu">×</button>
+                <ul class="mobile-list">
+                    <li class="submenu">
+                        <button class="submenu-btn" aria-expanded="false">
+                            Shops <img src="/asset/icons/arrow-down.svg" alt="">
+                        </button>
+                        <ul class="submenu-content">
+                            <li><a href="https://www.google.com/" target="_blank">Link 1</a></li>
+                            <li><a href="https://www.google.com/" target="_blank">Link 2</a></li>
+                            <li><a href="https://www.google.com/" target="_blank">Link 3</a></li>
+                            <li><a href="https://www.google.com/" target="_blank">Link 4</a></li>
+                        </ul>
+                    </li>
 
-            <ul class="mobile-list">
-                <li class="submenu">
-                    <button class="submenu-btn" aria-expanded="false">
-                        Shops <img src="/asset/icons/arrow-down.svg" alt="">
-                    </button>
-                    <ul class="submenu-content">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                        <li><a href="#">Link 4</a></li>
-                    </ul>
-                </li>
+                    <li><a href="https://www.google.com/" target="_blank">Bundles</a></li>
 
-                <li><a href="#">Bundles</a></li>
+                    <li class="submenu">
+                        <button class="submenu-btn" aria-expanded="false">
+                            About Us <img src="/asset/icons/arrow-down.svg" alt="">
+                        </button>
+                        <ul class="submenu-content">
+                            <li><a href="https://www.google.com/" target="_blank">Link 1</a></li>
+                            <li><a href="https://www.google.com/" target="_blank">Link 2</a></li>
+                            <li><a href="https://www.google.com/" target="_blank">Link 3</a></li>
+                            <li><a href="https://www.google.com/" target="_blank">Link 4</a></li>
+                        </ul>
+                    </li>
 
-                <li class="submenu">
-                    <button class="submenu-btn" aria-expanded="false">
-                        About Us <img src="/asset/icons/arrow-down.svg" alt="">
-                    </button>
-                    <ul class="submenu-content">
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a></li>
-                        <li><a href="#">Link 3</a></li>
-                        <li><a href="#">Link 4</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">Education</a></li>
-            </ul>
-        </nav>
-        <div class="backdrop"></div>
+                    <li><a href="https://www.google.com/" target="_blank">Education</a></li>
+                </ul>
+            </nav>
+            <div class="backdrop"></div>
 
 
-    </header>
+        </header>
+    </div>
+
 
     <!-- Hero Section -->
     <section class="hero-section">
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper">
 
-        <video autoplay muted loop class="hero-video-bg">
-            <source src="/asset/videos/hero-section.mp4" type="video/mp4" />
-            Your browser does not support HTML5 video.
-        </video>
+                <div class="swiper-slide">
+                    <video autoplay muted loop class="hero-video-bg">
+                        <source src="/asset/videos/hero-section.mp4" type="video/mp4" />
+                        Your browser does not support HTML5 video.
+                    </video>
 
-        <div class="hero-content">
-
-            <div class="swiper hero-swiper">
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide">
+                    <div class="hero-content">
                         <div class="hero-content-card">
                             <h1>Lorem ipdum dolor site amene.</h1>
-                            <button>Shop Now</button>
+                            <button>
+                                <a href="https://www.google.com/" target="_blank"> Shop Now</a>
+                            </button>
                         </div>
-                    </div>
 
-                    <div class="swiper-slide">
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <video autoplay muted loop class="hero-video-bg">
+                        <source src="/asset/videos/hero-section.mp4" type="video/mp4" />
+                        Your browser does not support HTML5 video.
+                    </video>
+
+                    <div class="hero-content">
                         <div class="hero-content-card">
                             <h1>Lorem ipdum dolor site amene.</h1>
-                            <button>Shop Now</button>
+                            <button>
+                                <a href="https://www.google.com/" target="_blank"> Shop Now</a>
+                            </button>
                         </div>
-                    </div>
 
-                    <div class="swiper-slide">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <video autoplay muted loop class="hero-video-bg">
+                        <source src="/asset/videos/hero-section.mp4" type="video/mp4" />
+                        Your browser does not support HTML5 video.
+                    </video>
+
+                    <div class="hero-content">
                         <div class="hero-content-card">
                             <h1>Lorem ipdum dolor site amene.</h1>
-                            <button>Shop Now</button>
+                            <button>
+                                <a href="https://www.google.com/" target="_blank"> Shop Now</a>
+                            </button>
                         </div>
+
                     </div>
+                </div>
+
+            </div>
+
+            <!-- Pagination Dots -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+
+    <div class="body-container">
+        <!-- Tags Section -->
+        <section class="tags-slider">
+            <div class="tags-track" id="tagsTrack">
+                <img src="/asset/images/tag-section/1.svg" />
+                <img src="/asset/images/tag-section/2.svg" />
+                <img src="/asset/images/tag-section/3.svg" />
+                <img src="/asset/images/tag-section/4.svg" />
+                <img src="/asset/images/tag-section/5.svg" />
+                <img src="/asset/images/tag-section/6.svg" />
+                <img src="/asset/images/tag-section/7.svg" />
+                <img src="/asset/images/tag-section/8.svg" />
+
+                <img src="/asset/images/tag-section/1.svg" />
+                <img src="/asset/images/tag-section/2.svg" />
+                <img src="/asset/images/tag-section/3.svg" />
+                <img src="/asset/images/tag-section/4.svg" />
+                <img src="/asset/images/tag-section/5.svg" />
+                <img src="/asset/images/tag-section/6.svg" />
+                <img src="/asset/images/tag-section/7.svg" />
+                <img src="/asset/images/tag-section/8.svg" />
+            </div>
+
+        </section>
+
+        <!-- Bio-match section -->
+        <section class="bio-match-section">
+
+            <div class="bio-match-left">
+
+                <img src="/asset/icons/bio-match-icon.svg" alt="">
+                <h2 class="main-heading">Lorem upsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis libero quis mi pharetra, sit
+                    amet
+                    consequat nulla commodo. Donec sit amet libero et eros interdum feugiat non a augue. Pellentesque
+                    habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. I</p>
+
+                <button class="main-btn"> <a href="https://www.google.com/" target="_blank">Call to action</a></button>
+
+            </div>
+
+            <div class="bio-match-right">
+                <video autoplay muted loop>
+                    <source src="/asset/videos/hero-section.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+            </div>
+
+
+        </section>
+
+        <!-- Shop our Colletion -->
+        <section class="shop-collection-section">
+
+            <div class="collection-swiper-header-container">
+
+                <h2 class="main-heading">Shop our collections</h2>
+
+                <div class="collection-swiper-header">
+                    <div class="collection-swiper-header-left">
+                        <button class="main-btn">
+                            <a href="https://www.google.com/" target="_blank">shop all products</a>
+                        </button>
+                    </div>
+
+                    <div class="collection-swiper-arrows">
+                        <img src="/asset//icons/left-arrow.svg" alt="left arrow" class="collection-swiper-prev arrow" />
+                        <img src="/asset//icons/right-arrow.svg" alt="right arrow"
+                            class="collection-swiper-next arrow" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="collection-swiper-inner">
+                <div class="swiper shopCollectionSwiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <img src="/asset//images//shop-collection/1.png" alt="learn image" />
+                            <h3>Personal Lubricants</h3>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="/asset//images//shop-collection/2.png" alt="learn image" />
+                            <h3>Body Washes and Wipes</h3>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="/asset//images//shop-collection/3.png" alt="learn image" />
+                            <h3>Vaginal Care</h3>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="/asset//images//shop-collection/1.png" alt="learn image" />
+                            <h3>Personal Lubricants</h3>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="/asset//images//shop-collection/2.png" alt="learn image" />
+                            <h3>Body Washes and Wipes</h3>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="/asset//images//shop-collection/3.png" alt="learn image" />
+                            <h3>Vaginal Care</h3>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="collection-swiper-arrows-mobile">
+                <img src="/asset//icons/left-arrow.svg" alt="left arrow" class="collection-swiper-prev arrow" />
+                <img src="/asset//icons/right-arrow.svg" alt="right arrow" class="collection-swiper-next arrow" />
+            </div>
+
+
+        </section>
+
+        <!-- Best Seller Section -->
+        <section class="best-seller-section">
+
+            <div class="best-seller-heading">
+                <h2 class="main-heading">Bestsellers</h2>
+                <p>Shop All Products</p>
+            </div>
+
+            <div class="middle-line"></div>
+
+            <div class="best-seller-card-container">
+
+                <div class="best-seller-card">
+                    <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
+                    <h3>
+                        BioNude® Ultra Sensitive Personal Lubricant Products
+                    </h3>
+
+                    <div class="rating-container">
+                        <div class="stars-group">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/half-star-icon.svg" alt="">
+                        </div>
+
+                        <p><strong>5.0</strong>&nbsp;(335 Reviews)</p>
+
+                    </div>
+
+                    <form class="form">
+                        <label for="size">Size</label>
+                        <div class="select-wrapper">
+                            <select id="size">
+                                <option value="2">2 Pack</option>
+                                <option value="4">4 Pack</option>
+                                <option value="6">Family Pack (6 Pack)</option>
+                                <option value="8">Party Pack (8 Pack)</option>
+                            </select>
+                            <div class="custom-arrow">
+                                <img src="/asset/icons/arrow-down.svg" alt="arrow down">
+                            </div>
+                        </div>
+                    </form>
+
+
+                    <div class="purchase-btn">
+                        <button type="button" class="one-time-btn active">One Time Purchase $XX.XX</button>
+                        <button type="button" class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
+                    </div>
+
+                    <button type="button" class="cart-btn">
+                        Add to Cart
+                    </button>
 
                 </div>
 
-                <!-- Pagination Dots -->
-                <div class="swiper-pagination"></div>
+                <div class="best-seller-card">
+                    <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
+                    <h3>
+                        BioNude® Ultra Sensitive Personal Lubricant Products
+                    </h3>
+
+                    <div class="rating-container">
+                        <div class="stars-group">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/half-star-icon.svg" alt="">
+                        </div>
+
+                        <p class="reviews-text"><strong>5.0</strong>&nbsp;(335 Reviews)</p>
+
+                    </div>
+
+                    <form class="form">
+                        <label for="size">Size</label>
+                        <div class="select-wrapper">
+                            <select id="size">
+                                <option value="2">2 Pack</option>
+                                <option value="4">4 Pack</option>
+                                <option value="6">Family Pack (6 Pack)</option>
+                                <option value="8">Party Pack (8 Pack)</option>
+                            </select>
+                            <div class="custom-arrow">
+                                <img src="/asset/icons/arrow-down.svg" alt="arrow down">
+                            </div>
+                        </div>
+                    </form>
+
+
+                    <div class="purchase-btn">
+                        <button type="button" class="one-time-btn active">One Time Purchase $XX.XX</button>
+                        <button type="button" class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
+                    </div>
+
+                    <button type="button" class="cart-btn">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+                <div class="best-seller-card">
+                    <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
+                    <h3>
+                        BioNude® Ultra Sensitive Personal Lubricant Products
+                    </h3>
+
+                    <div class="rating-container">
+                        <div class="stars-group">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                            <img src="/asset/icons/half-star-icon.svg" alt="">
+                        </div>
+
+                        <p class="reviews-text"><strong>5.0</strong>&nbsp;(335 Reviews)</p>
+
+                    </div>
+
+                    <form class="form">
+                        <label for="size">Size</label>
+                        <div class="select-wrapper">
+                            <select id="size">
+                                <option value="2">2 Pack</option>
+                                <option value="4">4 Pack</option>
+                                <option value="6">Family Pack (6 Pack)</option>
+                                <option value="8">Party Pack (8 Pack)</option>
+                            </select>
+                            <div class="custom-arrow">
+                                <img src="/asset/icons/arrow-down.svg" alt="arrow down">
+                            </div>
+                        </div>
+                    </form>
+
+
+                    <div class="purchase-btn">
+                        <button type="button" class="one-time-btn active">One Time Purchase $XX.XX</button>
+                        <button type="button" class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
+                    </div>
+
+                    <button type="button" class="cart-btn">
+                        Add to Cart
+                    </button>
+
+                </div>
+
             </div>
-        </div>
-    </section>
 
-    <!-- Tags Section -->
-    <section class="tags-slider">
-        <div class="tags-track" id="tagsTrack">
-            <img src="/asset/images/tag-section/1.svg" />
-            <img src="/asset/images/tag-section/2.svg" />
-            <img src="/asset/images/tag-section/3.svg" />
-            <img src="/asset/images/tag-section/4.svg" />
-            <img src="/asset/images/tag-section/5.svg" />
-            <img src="/asset/images/tag-section/6.svg" />
-            <img src="/asset/images/tag-section/7.svg" />
-            <img src="/asset/images/tag-section/8.svg" />
-        </div>
+            <!-- Best Seller card container for mobile -->
+            <div class="best-seller-card-container-mobile">
 
-    </section>
+                <div class="best-seller-swiper-inner">
+                    <div class="swiper bestSellerSwiper">
+                        <div class="swiper-wrapper">
 
-    <!-- Bio-match section -->
-    <section class="bio-match-section">
+                            <div class="swiper-slide">
 
-        <div class="bio-match-left">
+                                <div class="best-seller-card">
+                                    <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
+                                    <h3>
+                                        BioNude® Ultra Sensitive Personal Lubricant Products
+                                    </h3>
 
-            <img src="/asset/icons/bio-match-icon.svg" alt="">
-            <h2 class="main-heading">Lorem upsum dolor.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis libero quis mi pharetra, sit amet
-                consequat nulla commodo. Donec sit amet libero et eros interdum feugiat non a augue. Pellentesque
-                habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. I</p>
+                                    <div class="rating-container">
+                                        <div class="stars-group">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/half-star-icon.svg" alt="">
+                                        </div>
 
-            <button class="main-btn">Call to action</button>
+                                        <p class="reviews-text"><strong>5.0</strong>&nbsp;(335 Reviews)</p>
 
-        </div>
 
-        <div class="bio-match-right">
-            <video autoplay muted loop>
-                <source src="/asset/videos/hero-section.mp4" type="video/mp4">
+                                    </div>
+
+                                    <form class="form">
+                                        <label for="size">Size</label>
+                                        <div class="select-wrapper">
+                                            <select id="size">
+                                                <option value="2">2 Pack</option>
+                                                <option value="4">4 Pack</option>
+                                                <option value="6">Family Pack (6 Pack)</option>
+                                                <option value="8">Party Pack (8 Pack)</option>
+                                            </select>
+                                            <div class="custom-arrow">
+                                                <img src="/asset/icons/arrow-down.svg" alt="arrow down">
+                                            </div>
+                                        </div>
+                                    </form>
+
+
+                                    <div class="purchase-btn">
+                                        <button class="one-time-btn active">One Time Purchase $XX.XX</button>
+                                        <button class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
+                                    </div>
+
+                                    <button class="cart-btn">
+                                        Add to Cart
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="best-seller-card">
+                                    <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
+                                    <h3>
+                                        BioNude® Ultra Sensitive Personal Lubricant Products
+                                    </h3>
+
+                                    <div class="rating-container">
+                                        <div class="stars-group">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/half-star-icon.svg" alt="">
+                                        </div>
+
+                                        <p class="reviews-text"><strong>5.0</strong>&nbsp;(335 Reviews)</p>
+
+
+                                    </div>
+
+                                    <form class="form">
+                                        <label for="size">Size</label>
+                                        <div class="select-wrapper">
+                                            <select id="size">
+                                                <option value="2">2 Pack</option>
+                                                <option value="4">4 Pack</option>
+                                                <option value="6">Family Pack (6 Pack)</option>
+                                                <option value="8">Party Pack (8 Pack)</option>
+                                            </select>
+                                            <div class="custom-arrow">
+                                                <img src="/asset/icons/arrow-down.svg" alt="arrow down">
+                                            </div>
+                                        </div>
+                                    </form>
+
+
+                                    <div class="purchase-btn">
+                                        <button class="one-time-btn active">One Time Purchase $XX.XX</button>
+                                        <button class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
+                                    </div>
+
+                                    <button class="cart-btn">
+                                        Add to Cart
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="best-seller-card">
+                                    <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
+                                    <h3>
+                                        BioNude® Ultra Sensitive Personal Lubricant Products
+                                    </h3>
+
+                                    <div class="rating-container">
+                                        <div class="stars-group">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                            <img src="/asset/icons/half-star-icon.svg" alt="">
+                                        </div>
+
+                                        <p class="reviews-text"><strong>5.0</strong>&nbsp;(335 Reviews)</p>
+
+
+                                    </div>
+
+                                    <form class="form">
+                                        <label for="size">Size</label>
+                                        <div class="select-wrapper">
+                                            <select id="size">
+                                                <option value="2">2 Pack</option>
+                                                <option value="4">4 Pack</option>
+                                                <option value="6">Family Pack (6 Pack)</option>
+                                                <option value="8">Party Pack (8 Pack)</option>
+                                            </select>
+                                            <div class="custom-arrow">
+                                                <img src="/asset/icons/arrow-down.svg" alt="arrow down">
+                                            </div>
+                                        </div>
+                                    </form>
+
+
+                                    <div class="purchase-btn">
+                                        <button class="one-time-btn active">One Time Purchase $XX.XX</button>
+                                        <button class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
+                                    </div>
+
+                                    <button class="cart-btn">
+                                        Add to Cart
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="best-seller-swiper-arrows">
+                    <img src="/asset//icons/left-arrow.svg" alt="left arrow" class="best-seller-swiper-prev arrow" />
+                    <img src="/asset//icons/right-arrow.svg" alt="right arrow" class="best-seller-swiper-next arrow" />
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Call to action section -->
+        <section class="call-to-action">
+            <video autoplay muted loop class="video-bg">
+                <source src="/asset/videos/call-to-action.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
-        </div>
 
-
-    </section>
-
-    <!-- Shop our Colletion -->
-    <section class="shop-collection-section">
-
-        <div class="collection-swiper-header-container">
-
-            <h2 class="main-heading">Shop our collections</h2>
-
-            <div class="collection-swiper-header">
-                <div class="collection-swiper-header-left">
-                    <button class="main-btn">shop all products</button>
-                </div>
-
-                <div class="collection-swiper-arrows">
-                    <img src="/asset//icons/left-arrow.svg" alt="left arrow" class="collection-swiper-prev arrow" />
-                    <img src="/asset//icons/right-arrow.svg" alt="right arrow" class="collection-swiper-next arrow" />
-                </div>
+            <div class="call-to-action-content">
+                <h2>Clean Statement</h2>
+                <button>
+                    <a href="https://google.com" target="_blank">Call to Action</a>
+                </button>
             </div>
+        </section>
 
-        </div>
+        <!-- Testimonial section -->
+        <section class="testimonial-section">
 
-        <div class="collection-swiper-inner">
-            <div class="swiper shopCollectionSwiper">
+            <div class="swiper testimonialSwiper">
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
-                        <img src="/asset//images//shop-collection/1.png" alt="learn image" />
-                        <h3>Personal Lubricants</h3>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
+                            tincidunt urna eget, ultrices erat.
+                        </p>
+                        <p class="testimonial-author">Sample A. Sampleson</p>
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="/asset//images//shop-collection/2.png" alt="learn image" />
-                        <h3>Body Washes and Wipes</h3>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
+                            tincidunt urna eget, ultrices erat.
+                        </p>
+                        <p class="testimonial-author">Sample B. Sampleson</p>
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="/asset//images//shop-collection/3.png" alt="learn image" />
-                        <h3>Vaginal Care</h3>
+                        <p class="testimonial-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                            ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
+                            tincidunt urna eget, ultrices erat.
+                        </p>
+                        <p class="testimonial-author">Sample C. Sampleson</p>
                     </div>
-
-                    <div class="swiper-slide">
-                        <img src="/asset//images//shop-collection/1.png" alt="learn image" />
-                        <h3>Personal Lubricants</h3>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="/asset//images//shop-collection/2.png" alt="learn image" />
-                        <h3>Body Washes and Wipes</h3>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="/asset//images//shop-collection/3.png" alt="learn image" />
-                        <h3>Vaginal Care</h3>
-                    </div>
-
 
                 </div>
             </div>
-        </div>
+        </section>
 
+        <!-- Blogs Section -->
+        <section class="blogs-section">
 
-        <div class="collection-swiper-arrows-mobile">
-            <img src="/asset//icons/left-arrow.svg" alt="left arrow" class="collection-swiper-prev arrow" />
-            <img src="/asset//icons/right-arrow.svg" alt="right arrow" class="collection-swiper-next arrow" />
-        </div>
-
-
-    </section>
-
-    <!-- Best Seller Section -->
-    <section class="best-seller-section">
-
-        <div class="best-seller-heading">
-            <h2 class="main-heading">Bestsellers</h2>
-            <p>Shop All Products</p>
-        </div>
-
-        <div class="middle-line"></div>
-
-        <div class="best-seller-card-container">
-
-            <div class="best-seller-card">
-                <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
-                <h3>
-                    BioNude® Ultra Sensitive Personal Lubricant Products
-                </h3>
-
-                <div class="rating-container">
-                    <div class="stars-group">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/half-star-icon.svg" alt="">
-                    </div>
-
-                    <p><strong>5.0</strong>&nbsp;(335 Reviews)</p>
-
-                </div>
-
-                <form class="form">
-                    <label for="size">Size</label>
-                    <div class="select-wrapper">
-                        <select id="size">
-                            <option value="2">2 Pack</option>
-                            <option value="4">4 Pack</option>
-                            <option value="6">Family Pack (6 Pack)</option>
-                            <option value="8">Party Pack (8 Pack)</option>
-                        </select>
-                        <div class="custom-arrow">
-                            <img src="/asset/icons/arrow-down.svg" alt="arrow down">
-                        </div>
-                    </div>
-                </form>
-
-
-                <div class="purchase-btn">
-                    <button type="button" class="one-time-btn active">One Time Purchase $XX.XX</button>
-                    <button type="button" class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
-                </div>
-
-                <button type="button" class="cart-btn">
-                    Add to Cart
-                </button>
-
+            <div class="blogs-header">
+                <h2 class="main-heading">Blogs</h2>
+                <p>Read All</p>
             </div>
 
-            <div class="best-seller-card">
-                <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
-                <h3>
-                    BioNude® Ultra Sensitive Personal Lubricant Products
-                </h3>
-
-                <div class="rating-container">
-                    <div class="stars-group">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/half-star-icon.svg" alt="">
-                    </div>
-
-                    <p class="reviews-text"><strong>5.0</strong>&nbsp;(335 Reviews)</p>
-
-                </div>
-
-                <form class="form">
-                    <label for="size">Size</label>
-                    <div class="select-wrapper">
-                        <select id="size">
-                            <option value="2">2 Pack</option>
-                            <option value="4">4 Pack</option>
-                            <option value="6">Family Pack (6 Pack)</option>
-                            <option value="8">Party Pack (8 Pack)</option>
-                        </select>
-                        <div class="custom-arrow">
-                            <img src="/asset/icons/arrow-down.svg" alt="arrow down">
-                        </div>
-                    </div>
-                </form>
-
-
-                <div class="purchase-btn">
-                    <button type="button" class="one-time-btn active">One Time Purchase $XX.XX</button>
-                    <button type="button" class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
-                </div>
-
-                <button type="button" class="cart-btn">
-                    Add to Cart
-                </button>
-
-            </div>
-
-            <div class="best-seller-card">
-                <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
-                <h3>
-                    BioNude® Ultra Sensitive Personal Lubricant Products
-                </h3>
-
-                <div class="rating-container">
-                    <div class="stars-group">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                        <img src="/asset/icons/half-star-icon.svg" alt="">
-                    </div>
-
-                    <p class="reviews-text"><strong>5.0</strong>&nbsp;(335 Reviews)</p>
-
-                </div>
-
-                <form class="form">
-                    <label for="size">Size</label>
-                    <div class="select-wrapper">
-                        <select id="size">
-                            <option value="2">2 Pack</option>
-                            <option value="4">4 Pack</option>
-                            <option value="6">Family Pack (6 Pack)</option>
-                            <option value="8">Party Pack (8 Pack)</option>
-                        </select>
-                        <div class="custom-arrow">
-                            <img src="/asset/icons/arrow-down.svg" alt="arrow down">
-                        </div>
-                    </div>
-                </form>
-
-
-                <div class="purchase-btn">
-                    <button type="button" class="one-time-btn active">One Time Purchase $XX.XX</button>
-                    <button type="button" class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
-                </div>
-
-                <button type="button" class="cart-btn">
-                    Add to Cart
-                </button>
-
-            </div>
-
-        </div>
-
-        <!-- Best Seller card container for mobile -->
-        <div class="best-seller-card-container-mobile">
-
-            <div class="best-seller-swiper-inner">
-                <div class="swiper bestSellerSwiper">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-
-                            <div class="best-seller-card">
-                                <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
-                                <h3>
-                                    BioNude® Ultra Sensitive Personal Lubricant Products
-                                </h3>
-
-                                <div class="rating-container">
-                                    <div class="stars-group">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/half-star-icon.svg" alt="">
-                                    </div>
-
-                                    <p class="reviews-text"><strong>5.0</strong>&nbsp;(335 Reviews)</p>
-
-
-                                </div>
-
-                                <form class="form">
-                                    <label for="size">Size</label>
-                                    <div class="select-wrapper">
-                                        <select id="size">
-                                            <option value="2">2 Pack</option>
-                                            <option value="4">4 Pack</option>
-                                            <option value="6">Family Pack (6 Pack)</option>
-                                            <option value="8">Party Pack (8 Pack)</option>
-                                        </select>
-                                        <div class="custom-arrow">
-                                            <img src="/asset/icons/arrow-down.svg" alt="arrow down">
-                                        </div>
-                                    </div>
-                                </form>
-
-
-                                <div class="purchase-btn">
-                                    <button class="one-time-btn active">One Time Purchase $XX.XX</button>
-                                    <button class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
-                                </div>
-
-                                <button class="cart-btn">
-                                    Add to Cart
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                        <div class="swiper-slide">
-
-                            <div class="best-seller-card">
-                                <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
-                                <h3>
-                                    BioNude® Ultra Sensitive Personal Lubricant Products
-                                </h3>
-
-                                <div class="rating-container">
-                                    <div class="stars-group">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/half-star-icon.svg" alt="">
-                                    </div>
-
-                                    <p class="reviews-text"><strong>5.0</strong>&nbsp;(335 Reviews)</p>
-
-
-                                </div>
-
-                                <form class="form">
-                                    <label for="size">Size</label>
-                                    <div class="select-wrapper">
-                                        <select id="size">
-                                            <option value="2">2 Pack</option>
-                                            <option value="4">4 Pack</option>
-                                            <option value="6">Family Pack (6 Pack)</option>
-                                            <option value="8">Party Pack (8 Pack)</option>
-                                        </select>
-                                        <div class="custom-arrow">
-                                            <img src="/asset/icons/arrow-down.svg" alt="arrow down">
-                                        </div>
-                                    </div>
-                                </form>
-
-
-                                <div class="purchase-btn">
-                                    <button class="one-time-btn active">One Time Purchase $XX.XX</button>
-                                    <button class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
-                                </div>
-
-                                <button class="cart-btn">
-                                    Add to Cart
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                        <div class="swiper-slide">
-
-                            <div class="best-seller-card">
-                                <img class="seller-card-img" src="/asset//images/bestseller.png" alt="">
-                                <h3>
-                                    BioNude® Ultra Sensitive Personal Lubricant Products
-                                </h3>
-
-                                <div class="rating-container">
-                                    <div class="stars-group">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                        <img src="/asset/icons/half-star-icon.svg" alt="">
-                                    </div>
-
-                                    <p class="reviews-text"><strong>5.0</strong>&nbsp;(335 Reviews)</p>
-
-
-                                </div>
-
-                                <form class="form">
-                                    <label for="size">Size</label>
-                                    <div class="select-wrapper">
-                                        <select id="size">
-                                            <option value="2">2 Pack</option>
-                                            <option value="4">4 Pack</option>
-                                            <option value="6">Family Pack (6 Pack)</option>
-                                            <option value="8">Party Pack (8 Pack)</option>
-                                        </select>
-                                        <div class="custom-arrow">
-                                            <img src="/asset/icons/arrow-down.svg" alt="arrow down">
-                                        </div>
-                                    </div>
-                                </form>
-
-
-                                <div class="purchase-btn">
-                                    <button class="one-time-btn active">One Time Purchase $XX.XX</button>
-                                    <button class="subscribe-btn">Subscribe & Save 15% $XX.XX</button>
-                                </div>
-
-                                <button class="cart-btn">
-                                    Add to Cart
-                                </button>
-
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="best-seller-swiper-arrows">
-                <img src="/asset//icons/left-arrow.svg" alt="left arrow" class="best-seller-swiper-prev arrow" />
-                <img src="/asset//icons/right-arrow.svg" alt="right arrow" class="best-seller-swiper-next arrow" />
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Call to action section -->
-    <section class="call-to-action">
-        <video autoplay muted loop class="video-bg">
-            <source src="/asset/videos/call-to-action.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-        </video>
-
-        <div class="call-to-action-content">
-            <h2>Clean Statement</h2>
-            <button>Call to Action</button>
-        </div>
-    </section>
-
-    <!-- Testimonial section -->
-    <section class="testimonial-section">
-        <div class="swiper testimonialSwiper">
-            <div class="swiper-wrapper">
-                <!-- Slide 1 -->
-                <div class="swiper-slide">
-                    <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                        ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
-                        tincidunt urna eget, ultrices erat.
+            <div class="blogs-middle-line"></div>
+
+            <!-- blogs for desktop -->
+            <div class="blogs-container">
+
+                <div class="blog-card">
+                    <img src="/asset//images/blogs-section/1.png" alt="">
+                    <h3>Unite For Her Non-Profit Organization: Offering Free...</h3>
+                    <p>
+                        As a continued partner of Good Clean Love, this holiday season we are spotlighting Unite for...
                     </p>
-                    <p class="testimonial-author">Sample A. Sampleson</p>
+                    <button class="main-btn"> <a href="https://www.google.com/" target="_blank">Read more</a></button>
                 </div>
 
-                <!-- Slide 2 -->
-                <div class="swiper-slide">
-                    <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                        ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
-                        tincidunt urna eget, ultrices erat.
+                <div class="blog-card">
+                    <img src="/asset//images/blogs-section/2.png" alt="">
+                    <h3>2024 Holiday Gift Guide</h3>
+                    <p>
+                        The holidays are the perfect time to show your loved ones how much you care. This year, we’ve
+                        put
+                        together a curated gift guide featuring clean...
                     </p>
-                    <p class="testimonial-author">Sample B. Sampleson</p>
+                    <button class="main-btn"><a href="https://www.google.com/" target="_blank">Read more</a></button>
                 </div>
 
-                <!-- Slide 3 -->
-                <div class="swiper-slide">
-                    <p class="testimonial-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                        ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
-                        tincidunt urna eget, ultrices erat.
-                    </p>
-                    <p class="testimonial-author">Sample C. Sampleson</p>
+                <div class="blog-card">
+                    <img src="/asset//images/blogs-section/3.png" alt="">
+                    <h3>
+                        In a world where mental health challenges continue to rise, taking the time to care for our...
+                        </p>
+                        <button class="main-btn"><a href="https://www.google.com/" target="_blank">Read
+                                more</a></button>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Blogs Section -->
-    <section class="blogs-section">
-
-        <div class="blogs-header">
-            <h2 class="main-heading">Blogs</h2>
-            <p>Read All</p>
-        </div>
-
-        <div class="blogs-middle-line"></div>
-
-        <!-- blogs for desktop -->
-        <div class="blogs-container">
-
-            <div class="blog-card">
-                <img src="/asset//images/blogs-section/1.png" alt="">
-                <h3>Unite For Her Non-Profit Organization: Offering Free...</h3>
-                <p>
-                    As a continued partner of Good Clean Love, this holiday season we are spotlighting Unite for...
-                </p>
-                <button class="main-btn">Read more</button>
             </div>
 
-            <div class="blog-card">
-                <img src="/asset//images/blogs-section/2.png" alt="">
-                <h3>2024 Holiday Gift Guide</h3>
-                <p>
-                    The holidays are the perfect time to show your loved ones how much you care. This year, we’ve put
-                    together a curated gift guide featuring clean...
-                </p>
-                <button class="main-btn">Read more</button>
-            </div>
+            <!-- blogs for mobile -->
+            <div class="blogs-container-mobile">
 
-            <div class="blog-card">
-                <img src="/asset//images/blogs-section/3.png" alt="">
-                <h3>
-                    In a world where mental health challenges continue to rise, taking the time to care for our...
-                    </p>
-                    <button class="main-btn">Read more</button>
-            </div>
+                <div class="blogs-swiper-inner">
+                    <div class="swiper blogsSwiper">
+                        <div class="swiper-wrapper">
 
-        </div>
+                            <div class="swiper-slide">
 
-        <!-- blogs for mobile -->
-        <div class="blogs-container-mobile">
-
-            <div class="blogs-swiper-inner">
-                <div class="swiper blogsSwiper">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-
-                            <div class="blog-card">
-                                <img src="/asset//images/blogs-section/1.png" alt="">
-                                <h3>Unite For Her Non-Profit Organization: Offering Free...</h3>
-                                <p>
-                                    As a continued partner of Good Clean Love, this holiday season we are spotlighting
-                                    Unite for...
-                                </p>
-                                <button class="main-btn">Read more</button>
-                            </div>
-
-                        </div>
-
-                        <div class="swiper-slide">
-
-                            <div class="blog-card">
-                                <img src="/asset//images/blogs-section/2.png" alt="">
-                                <h3>2024 Holiday Gift Guide</h3>
-                                <p>
-                                    The holidays are the perfect time to show your loved ones how much you care. This
-                                    year, we’ve put
-                                    together a curated gift guide featuring clean...
-                                </p>
-                                <button class="main-btn">Read more</button>
-                            </div>
-
-                        </div>
-
-                        <div class="swiper-slide">
-
-                            <div class="blog-card">
-                                <img src="/asset//images/blogs-section/3.png" alt="">
-                                <h3>
-                                    In a world where mental health challenges continue to rise, taking the time to care
-                                    for our...
+                                <div class="blog-card">
+                                    <img src="/asset//images/blogs-section/1.png" alt="">
+                                    <h3>Unite For Her Non-Profit Organization: Offering Free...</h3>
+                                    <p>
+                                        As a continued partner of Good Clean Love, this holiday season we are
+                                        spotlighting
+                                        Unite for...
                                     </p>
-                                    <button class="main-btn">Read more</button>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Social made section -->
-    <section class="social-made-section">
-        <h2 class="main-heading">Social Made Me BUY It</h2>
-
-        <!-- social made for desktop -->
-        <div class="social-made-container">
-
-            <div class="social-card">
-
-                <div class="video-wrapper">
-                    <video class="social-video">
-                        <source src="/asset/videos/social-section/1.mp4" type="video/mp4">
-                    </video>
-
-                    <div class="play-toggle">
-
-                        <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                        <img class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
-                    </div>
-
-                </div>
-
-                <div class="social-card-content">
-
-                    <div class="social-card-left">
-                        <img src="/asset/images/social-made.png" alt="">
-                    </div>
-
-                    <div class="social-card-right">
-                        <div class="social-card-stars">
-                            <div class="social-stars-group">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/half-star-icon.svg" alt="">
-                            </div>
-                            <span class="username">@Sampleson</span>
-                        </div>
-                        <p class="product-name">Product Name Right Here</p>
-                        <button class="main-btn">ADD TO CART</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="social-card">
-
-                <div class="video-wrapper">
-                    <video class="social-video">
-                        <source src="/asset/videos/social-section/2.mp4" type="video/mp4">
-                    </video>
-
-                    <div class="play-toggle">
-
-                        <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                        <img style="width: 18px;" class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
-                    </div>
-                </div>
-
-                <div class="social-card-content">
-
-                    <div class="social-card-left">
-                        <img src="/asset/images/social-made.png" alt="">
-                    </div>
-
-                    <div class="social-card-right">
-                        <div class="social-card-stars">
-                            <div class="social-stars-group">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/half-star-icon.svg" alt="">
-                            </div>
-                            <span class="username">@Sampleson</span>
-                        </div>
-                        <p class="product-name">Product Name Right Here</p>
-                        <button class="main-btn">ADD TO CART</button>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="social-card">
-
-                <div class="video-wrapper">
-                    <video class="social-video">
-                        <source src="/asset/videos/social-section/3.mp4" type="video/mp4">
-                    </video>
-
-                    <div class="play-toggle">
-
-                        <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                        <img style="width: 18px;" class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
-                    </div>
-
-                </div>
-
-                <div class="social-card-content">
-
-                    <div class="social-card-left">
-                        <img src="/asset/images/social-made.png" alt="">
-                    </div>
-
-                    <div class="social-card-right">
-                        <div class="social-card-stars">
-                            <div class="social-stars-group">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                <img src="/asset/icons/half-star-icon.svg" alt="">
-                            </div>
-                            <span class="username">@Sampleson</span>
-                        </div>
-                        <p class="product-name">Product Name Right Here</p>
-                        <button class="main-btn">ADD TO CART</button>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-        <!-- social made for mobile -->
-        <div class="social-made-container-mobile">
-
-            <div class="social-swiper-inner">
-                <div class="swiper socialSwiper">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <div class="social-card">
-                                <div class="video-wrapper">
-                                    <video class="social-video">
-                                        <source src="/asset/videos/social-section/1.mp4" type="video/mp4">
-                                    </video>
-
-                                    <div class="play-toggle">
-
-                                        <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                                        <img class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
-                                    </div>
-
+                                    <button class="main-btn"><a href="https://www.google.com/" target="_blank">Read
+                                            more</a>
+                                    </button>
                                 </div>
 
-                                <div class="social-card-content">
+                            </div>
 
-                                    <div class="social-card-left">
-                                        <img src="/asset/images/social-made.png" alt="">
-                                    </div>
+                            <div class="swiper-slide">
 
-                                    <div class="social-card-right">
-                                        <div class="social-card-stars">
-                                            <div class="social-stars-group">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/half-star-icon.svg" alt="">
-                                            </div>
-                                            <span class="username">@Sampleson</span>
+                                <div class="blog-card">
+                                    <img src="/asset//images/blogs-section/2.png" alt="">
+                                    <h3>2024 Holiday Gift Guide</h3>
+                                    <p>
+                                        The holidays are the perfect time to show your loved ones how much you care.
+                                        This
+                                        year, we’ve put
+                                        together a curated gift guide featuring clean...
+                                    </p>
+                                    <button class="main-btn">
+                                        <a href="https://www.google.com/" target="_blank">Read more</a>
+                                    </button>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-slide">
+
+                                <div class="blog-card">
+                                    <img src="/asset//images/blogs-section/3.png" alt="">
+                                    <h3>
+                                        In a world where mental health challenges continue to rise, taking the time to
+                                        care
+                                        for our...
+                                        </p>
+                                        <button class="main-btn">
+                                            <a href="https://www.google.com/" target="_blank">Read more</a>
+                                        </button>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Social made section -->
+        <section class="social-made-section">
+            <h2 class="main-heading">Social Made Me BUY It</h2>
+
+            <!-- social made for desktop -->
+            <div class="social-made-container">
+
+                <div class="social-card">
+
+                    <div class="video-wrapper">
+                        <video class="social-video">
+                            <source src="/asset/videos/social-section/1.mp4" type="video/mp4">
+                        </video>
+
+                        <div class="play-toggle">
+
+                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                            <img class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="social-card-content">
+
+                        <div class="social-card-left">
+                            <img src="/asset/images/social-made.png" alt="">
+                        </div>
+
+                        <div class="social-card-right">
+                            <div class="social-card-stars">
+                                <div class="social-stars-group">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/half-star-icon.svg" alt="">
+                                </div>
+                                <span class="username">@Sampleson</span>
+                            </div>
+                            <p class="product-name">Product Name Right Here</p>
+                            <button class="main-btn"><a href="https://www.google.com/" target="_blank"> ADD TO
+                                    CART</a></button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="social-card">
+
+                    <div class="video-wrapper">
+                        <video class="social-video">
+                            <source src="/asset/videos/social-section/2.mp4" type="video/mp4">
+                        </video>
+
+                        <div class="play-toggle">
+
+                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                            <img style="width: 18px;" class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="social-card-content">
+
+                        <div class="social-card-left">
+                            <img src="/asset/images/social-made.png" alt="">
+                        </div>
+
+                        <div class="social-card-right">
+                            <div class="social-card-stars">
+                                <div class="social-stars-group">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/half-star-icon.svg" alt="">
+                                </div>
+                                <span class="username">@Sampleson</span>
+                            </div>
+                            <p class="product-name">Product Name Right Here</p>
+                            <button class="main-btn"><a href="https://www.google.com/" target="_blank"> ADD TO
+                                    CART</a></button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="social-card">
+
+                    <div class="video-wrapper">
+                        <video class="social-video">
+                            <source src="/asset/videos/social-section/3.mp4" type="video/mp4">
+                        </video>
+
+                        <div class="play-toggle">
+
+                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                            <img style="width: 18px;" class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="social-card-content">
+
+                        <div class="social-card-left">
+                            <img src="/asset/images/social-made.png" alt="">
+                        </div>
+
+                        <div class="social-card-right">
+                            <div class="social-card-stars">
+                                <div class="social-stars-group">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                    <img src="/asset/icons/half-star-icon.svg" alt="">
+                                </div>
+                                <span class="username">@Sampleson</span>
+                            </div>
+                            <p class="product-name">Product Name Right Here</p>
+                            <button class="main-btn"><a href="https://www.google.com/" target="_blank"> ADD TO
+                                    CART</a></button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- social made for mobile -->
+            <div class="social-made-container-mobile">
+
+                <div class="social-swiper-inner">
+                    <div class="swiper socialSwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="social-card">
+                                    <div class="video-wrapper">
+                                        <video class="social-video">
+                                            <source src="/asset/videos/social-section/1.mp4" type="video/mp4">
+                                        </video>
+
+                                        <div class="play-toggle">
+
+                                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                                            <img class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
                                         </div>
-                                        <p class="product-name">Product Name Right Here</p>
-                                        <button class="main-btn">ADD TO CART</button>
+
                                     </div>
 
-                                </div>
-                            </div>
-                        </div>
+                                    <div class="social-card-content">
 
-                        <div class="swiper-slide">
-                            <div class="social-card">
-
-                                <div class="video-wrapper">
-                                    <video class="social-video">
-                                        <source src="/asset/videos/social-section/2.mp4" type="video/mp4">
-                                    </video>
-
-                                    <div class="play-toggle">
-
-                                        <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                                        <img style="width: 18px;" class="icon-pause" src="/asset/icons/pause-icon.svg"
-                                            alt="">
-                                    </div>
-                                </div>
-
-                                <div class="social-card-content">
-
-                                    <div class="social-card-left">
-                                        <img src="/asset/images/social-made.png" alt="">
-                                    </div>
-
-                                    <div class="social-card-right">
-                                        <div class="social-card-stars">
-                                            <div class="social-stars-group">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/half-star-icon.svg" alt="">
-                                            </div>
-                                            <span class="username">@Sampleson</span>
+                                        <div class="social-card-left">
+                                            <img src="/asset/images/social-made.png" alt="">
                                         </div>
-                                        <p class="product-name">Product Name Right Here</p>
-                                        <button class="main-btn">ADD TO CART</button>
-                                    </div>
 
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="social-card">
-
-                                <div class="video-wrapper">
-                                    <video class="social-video">
-                                        <source src="/asset/videos/social-section/3.mp4" type="video/mp4">
-                                    </video>
-
-                                    <div class="play-toggle">
-
-                                        <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                                        <img style="width: 18px;" class="icon-pause" src="/asset/icons/pause-icon.svg"
-                                            alt="">
-                                    </div>
-
-                                </div>
-
-                                <div class="social-card-content">
-
-                                    <div class="social-card-left">
-                                        <img src="/asset/images/social-made.png" alt="">
-                                    </div>
-
-                                    <div class="social-card-right">
-                                        <div class="social-card-stars">
-                                            <div class="social-stars-group">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                <img src="/asset/icons/half-star-icon.svg" alt="">
+                                        <div class="social-card-right">
+                                            <div class="social-card-stars">
+                                                <div class="social-stars-group">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/half-star-icon.svg" alt="">
+                                                </div>
+                                                <span class="username">@Sampleson</span>
                                             </div>
-                                            <span class="username">@Sampleson</span>
+                                            <p class="product-name">Product Name Right Here</p>
+                                            <button class="main-btn"><a href="https://www.google.com/" target="_blank">
+                                                    ADD TO CART</a></button>
                                         </div>
-                                        <p class="product-name">Product Name Right Here</p>
-                                        <button class="main-btn">ADD TO CART</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="social-card">
+
+                                    <div class="video-wrapper">
+                                        <video class="social-video">
+                                            <source src="/asset/videos/social-section/2.mp4" type="video/mp4">
+                                        </video>
+
+                                        <div class="play-toggle">
+
+                                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                                            <img style="width: 18px;" class="icon-pause"
+                                                src="/asset/icons/pause-icon.svg" alt="">
+                                        </div>
+                                    </div>
+
+                                    <div class="social-card-content">
+
+                                        <div class="social-card-left">
+                                            <img src="/asset/images/social-made.png" alt="">
+                                        </div>
+
+                                        <div class="social-card-right">
+                                            <div class="social-card-stars">
+                                                <div class="social-stars-group">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/half-star-icon.svg" alt="">
+                                                </div>
+                                                <span class="username">@Sampleson</span>
+                                            </div>
+                                            <p class="product-name">Product Name Right Here</p>
+                                            <button class="main-btn"><a href="https://www.google.com/" target="_blank">
+                                                    ADD TO CART</a></button>
+                                        </div>
+
                                     </div>
 
                                 </div>
                             </div>
+
+                            <div class="swiper-slide">
+                                <div class="social-card">
+
+                                    <div class="video-wrapper">
+                                        <video class="social-video">
+                                            <source src="/asset/videos/social-section/3.mp4" type="video/mp4">
+                                        </video>
+
+                                        <div class="play-toggle">
+
+                                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                                            <img style="width: 18px;" class="icon-pause"
+                                                src="/asset/icons/pause-icon.svg" alt="">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="social-card-content">
+
+                                        <div class="social-card-left">
+                                            <img src="/asset/images/social-made.png" alt="">
+                                        </div>
+
+                                        <div class="social-card-right">
+                                            <div class="social-card-stars">
+                                                <div class="social-stars-group">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                    <img src="/asset/icons/half-star-icon.svg" alt="">
+                                                </div>
+                                                <span class="username">@Sampleson</span>
+                                            </div>
+                                            <p class="product-name">Product Name Right Here</p>
+                                            <button class="main-btn"><a href="https://www.google.com/" target="_blank">
+                                                    ADD TO CART</a></button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
-
-
                     </div>
+
+                    <div class="social-swiper-arrows">
+                        <img src="/asset//icons/social-left-arrow.svg" alt="left arrow"
+                            class="social-swiper-prev arrow" />
+
+                        <img src="/asset//icons/social-right-arrow.svg" alt="right arrow"
+                            class="social-swiper-next arrow" />
+                    </div>
+
                 </div>
 
-                <div class="social-swiper-arrows">
-                    <img src="/asset//icons/social-left-arrow.svg" alt="left arrow" class="social-swiper-prev arrow" />
-
-                    <img src="/asset//icons/social-right-arrow.svg" alt="right arrow"
-                        class="social-swiper-next arrow" />
-                </div>
 
             </div>
 
+        </section>
 
-        </div>
-
-    </section>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
@@ -1063,12 +1130,20 @@
 
                 <div class="footer-links-left">
                     <img class="logo" src="/asset/icons/logo.svg" alt="">
+
                     <div class="social-links">
-                        <img src="/asset/icons/instagram-icon.svg" alt="">
-                        <img src="/asset/icons/facebook-icon.svg" alt="">
-                        <img src="/asset/icons/youtube-icon.svg" alt="">
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <img src="/asset/icons/instagram-icon.svg" alt="Instagram">
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img src="/asset/icons/facebook-icon.svg" alt="Facebook">
+                        </a>
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                            <img src="/asset/icons/youtube-icon.svg" alt="YouTube">
+                        </a>
                     </div>
                 </div>
+
 
                 <div class="footer-links-right">
 
