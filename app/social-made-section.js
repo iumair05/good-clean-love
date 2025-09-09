@@ -18,9 +18,15 @@ document.querySelectorAll('.social-card').forEach(card => {
 
     playToggle.addEventListener('click', togglePlayPause);
 
-
     video.addEventListener('click', togglePlayPause);
+
+    // Reset icons when video ends
+    video.addEventListener('ended', () => {
+        playIcon.style.display = "block";
+        pauseIcon.style.display = "none";
+    });
 });
+
 
 
 // social made section swiper
