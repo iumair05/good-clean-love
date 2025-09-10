@@ -125,7 +125,7 @@
     margin: 0 auto;
     position: absolute !important;
     left: 0px !important;
-    bottom: 20px !important;
+    bottom: 380px !important;
   }
 
   .hero-content-card {
@@ -141,5 +141,17 @@
     font-size: 36px;
     line-height: 40px;
     letter-spacing: -0.32px;
+  }
+}
+
+@media screen and (max-width: 609px) {
+  .pagination-container .swiper-pagination {
+    bottom: 340px !important;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .pagination-container .swiper-pagination {
+    bottom: 300px !important;
   }
 }
