@@ -1,8 +1,11 @@
+.shop-collection-wrapper {
+  background-color: var(--seconday-color);
+}
+
 .shop-collection-section {
   max-width: var(--container-width);
   width: 100%;
   margin: 90px auto 0 auto;
-  background-color: var(--seconday-color);
   padding-bottom: 90px;
 }
 

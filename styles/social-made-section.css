@@ -1,3 +1,7 @@
+.social-made-wrapper {
+  background-color: #e1eede;
+}
+
 .social-made-section {
   display: flex;
   flex-direction: column;
@@ -6,7 +10,6 @@
   padding: 72px 20px;
   max-width: var(--container-width);
   width: 100%;
-  background-color: #e1eede;
 }
 
 .social-made-container {

@@ -149,9 +149,10 @@
         </header>
     </div>
 
-
     <!-- Hero Section -->
     <section class="hero-section">
+
+
         <div class="swiper hero-swiper">
             <div class="swiper-wrapper">
 
@@ -209,10 +210,14 @@
 
             </div>
 
+        </div>
+
+        <div class="pagination-container">
             <!-- Pagination Dots -->
             <div class="swiper-pagination"></div>
 
         </div>
+
     </section>
 
 
@@ -268,75 +273,78 @@
         </section>
 
         <!-- Shop our Colletion -->
-        <section class="shop-collection-section">
+        <div class="shop-collection-wrapper">
+            <section class="shop-collection-section">
 
-            <div class="collection-swiper-header-container">
+                <div class="collection-swiper-header-container">
 
-                <h2 class="main-heading">Shop our collections</h2>
+                    <h2 class="main-heading">Shop our collections</h2>
 
-                <div class="collection-swiper-header">
-                    <div class="collection-swiper-header-left">
-                        <button class="main-btn">
-                            <a href="https://www.google.com/" target="_blank">shop all products</a>
-                        </button>
+                    <div class="collection-swiper-header">
+                        <div class="collection-swiper-header-left">
+                            <button class="main-btn">
+                                <a href="https://www.google.com/" target="_blank">shop all products</a>
+                            </button>
+                        </div>
+
+                        <div class="collection-swiper-arrows">
+                            <img src="/asset//icons/left-arrow.svg" alt="left arrow"
+                                class="collection-swiper-prev arrow" />
+                            <img src="/asset//icons/right-arrow.svg" alt="right arrow"
+                                class="collection-swiper-next arrow" />
+                        </div>
                     </div>
 
-                    <div class="collection-swiper-arrows">
-                        <img src="/asset//icons/left-arrow.svg" alt="left arrow" class="collection-swiper-prev arrow" />
-                        <img src="/asset//icons/right-arrow.svg" alt="right arrow"
-                            class="collection-swiper-next arrow" />
+                </div>
+
+                <div class="collection-swiper-inner">
+                    <div class="swiper shopCollectionSwiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <img src="/asset//images//shop-collection/1.png" alt="learn image" />
+                                <h3>Personal Lubricants</h3>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="/asset//images//shop-collection/2.png" alt="learn image" />
+                                <h3>Body Washes and Wipes</h3>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="/asset//images//shop-collection/3.png" alt="learn image" />
+                                <h3>Vaginal Care</h3>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="/asset//images//shop-collection/1.png" alt="learn image" />
+                                <h3>Personal Lubricants</h3>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="/asset//images//shop-collection/2.png" alt="learn image" />
+                                <h3>Body Washes and Wipes</h3>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="/asset//images//shop-collection/3.png" alt="learn image" />
+                                <h3>Vaginal Care</h3>
+                            </div>
+
+
+                        </div>
                     </div>
                 </div>
 
-            </div>
 
-            <div class="collection-swiper-inner">
-                <div class="swiper shopCollectionSwiper">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <img src="/asset//images//shop-collection/1.png" alt="learn image" />
-                            <h3>Personal Lubricants</h3>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img src="/asset//images//shop-collection/2.png" alt="learn image" />
-                            <h3>Body Washes and Wipes</h3>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img src="/asset//images//shop-collection/3.png" alt="learn image" />
-                            <h3>Vaginal Care</h3>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img src="/asset//images//shop-collection/1.png" alt="learn image" />
-                            <h3>Personal Lubricants</h3>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img src="/asset//images//shop-collection/2.png" alt="learn image" />
-                            <h3>Body Washes and Wipes</h3>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img src="/asset//images//shop-collection/3.png" alt="learn image" />
-                            <h3>Vaginal Care</h3>
-                        </div>
-
-
-                    </div>
+                <div class="collection-swiper-arrows-mobile">
+                    <img src="/asset//icons/left-arrow.svg" alt="left arrow" class="collection-swiper-prev arrow" />
+                    <img src="/asset//icons/right-arrow.svg" alt="right arrow" class="collection-swiper-next arrow" />
                 </div>
-            </div>
 
 
-            <div class="collection-swiper-arrows-mobile">
-                <img src="/asset//icons/left-arrow.svg" alt="left arrow" class="collection-swiper-prev arrow" />
-                <img src="/asset//icons/right-arrow.svg" alt="right arrow" class="collection-swiper-next arrow" />
-            </div>
-
-
-        </section>
+            </section>
+        </div>
 
         <!-- Best Seller Section -->
         <section class="best-seller-section">
@@ -680,41 +688,70 @@
         </section>
 
         <!-- Testimonial section -->
-        <section class="testimonial-section">
+        <div class="testimonial-wrapper">
+            <section class="testimonial-section">
 
-            <div class="swiper testimonialSwiper">
-                <div class="swiper-wrapper">
+                <div class="swiper testimonialSwiper">
+                    <div class="swiper-wrapper">
 
-                    <div class="swiper-slide">
-                        <p class="testimonial-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                            ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
-                            tincidunt urna eget, ultrices erat.
-                        </p>
-                        <p class="testimonial-author">Sample A. Sampleson</p>
+                        <div class="swiper-slide">
+                            <p class="testimonial-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
+                                tincidunt urna eget, ultrices erat.
+                            </p>
+                            <p class="testimonial-author">Sample A. Sampleson</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <p class="testimonial-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
+                                tincidunt urna eget, ultrices erat.
+                            </p>
+                            <p class="testimonial-author">Sample B. Sampleson</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <p class="testimonial-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
+                                tincidunt urna eget, ultrices erat.
+                            </p>
+                            <p class="testimonial-author">Sample C. Sampleson</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <p class="testimonial-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
+                                tincidunt urna eget, ultrices erat.
+                            </p>
+                            <p class="testimonial-author">Sample A. Sampleson</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <p class="testimonial-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
+                                tincidunt urna eget, ultrices erat.
+                            </p>
+                            <p class="testimonial-author">Sample B. Sampleson</p>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <p class="testimonial-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                                ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
+                                tincidunt urna eget, ultrices erat.
+                            </p>
+                            <p class="testimonial-author">Sample C. Sampleson</p>
+                        </div>
+
                     </div>
-
-                    <div class="swiper-slide">
-                        <p class="testimonial-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                            ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
-                            tincidunt urna eget, ultrices erat.
-                        </p>
-                        <p class="testimonial-author">Sample B. Sampleson</p>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <p class="testimonial-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                            ultrices vitae est ut condimentum. Vestibulum a sapien auctor,
-                            tincidunt urna eget, ultrices erat.
-                        </p>
-                        <p class="testimonial-author">Sample C. Sampleson</p>
-                    </div>
-
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
         <!-- Blogs Section -->
         <section class="blogs-section">
@@ -828,287 +865,292 @@
         </section>
 
         <!-- Social made section -->
-        <section class="social-made-section">
-            <h2 class="main-heading">Social Made Me BUY It</h2>
+        <div class="social-made-wrapper">
+            <section class="social-made-section">
+                <h2 class="main-heading">Social Made Me BUY It</h2>
 
-            <!-- social made for desktop -->
-            <div class="social-made-container">
+                <!-- social made for desktop -->
+                <div class="social-made-container">
 
-                <div class="social-card">
+                    <div class="social-card">
 
-                    <div class="video-wrapper">
-                        <video class="social-video">
-                            <source src="/asset/videos/social-section/1.mp4" type="video/mp4">
-                        </video>
+                        <div class="video-wrapper">
+                            <video class="social-video">
+                                <source src="/asset/videos/social-section/1.mp4" type="video/mp4">
+                            </video>
 
-                        <div class="play-toggle">
+                            <div class="play-toggle">
 
-                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                            <img class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="social-card-content">
-
-                        <div class="social-card-left">
-                            <img src="/asset/images/social-made.png" alt="">
-                        </div>
-
-                        <div class="social-card-right">
-                            <div class="social-card-stars">
-                                <div class="social-stars-group">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/half-star-icon.svg" alt="">
-                                </div>
-                                <span class="username">@Sampleson</span>
+                                <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                                <img class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
                             </div>
-                            <p class="product-name">Product Name Right Here</p>
-                            <button class="main-btn"><a href="https://www.google.com/" target="_blank"> ADD TO
-                                    CART</a></button>
+
                         </div>
 
-                    </div>
+                        <div class="social-card-content">
 
-                </div>
-
-                <div class="social-card">
-
-                    <div class="video-wrapper">
-                        <video class="social-video">
-                            <source src="/asset/videos/social-section/2.mp4" type="video/mp4">
-                        </video>
-
-                        <div class="play-toggle">
-
-                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                            <img style="width: 18px;" class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="social-card-content">
-
-                        <div class="social-card-left">
-                            <img src="/asset/images/social-made.png" alt="">
-                        </div>
-
-                        <div class="social-card-right">
-                            <div class="social-card-stars">
-                                <div class="social-stars-group">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/half-star-icon.svg" alt="">
-                                </div>
-                                <span class="username">@Sampleson</span>
+                            <div class="social-card-left">
+                                <img src="/asset/images/social-made.png" alt="">
                             </div>
-                            <p class="product-name">Product Name Right Here</p>
-                            <button class="main-btn"><a href="https://www.google.com/" target="_blank"> ADD TO
-                                    CART</a></button>
-                        </div>
 
-                    </div>
-
-                </div>
-
-                <div class="social-card">
-
-                    <div class="video-wrapper">
-                        <video class="social-video">
-                            <source src="/asset/videos/social-section/3.mp4" type="video/mp4">
-                        </video>
-
-                        <div class="play-toggle">
-
-                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                            <img style="width: 18px;" class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="social-card-content">
-
-                        <div class="social-card-left">
-                            <img src="/asset/images/social-made.png" alt="">
-                        </div>
-
-                        <div class="social-card-right">
-                            <div class="social-card-stars">
-                                <div class="social-stars-group">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                    <img src="/asset/icons/half-star-icon.svg" alt="">
-                                </div>
-                                <span class="username">@Sampleson</span>
-                            </div>
-                            <p class="product-name">Product Name Right Here</p>
-                            <button class="main-btn"><a href="https://www.google.com/" target="_blank"> ADD TO
-                                    CART</a></button>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- social made for mobile -->
-            <div class="social-made-container-mobile">
-
-                <div class="social-swiper-inner">
-                    <div class="swiper socialSwiper">
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-                                <div class="social-card">
-                                    <div class="video-wrapper">
-                                        <video class="social-video">
-                                            <source src="/asset/videos/social-section/1.mp4" type="video/mp4">
-                                        </video>
-
-                                        <div class="play-toggle">
-
-                                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                                            <img class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
-                                        </div>
-
+                            <div class="social-card-right">
+                                <div class="social-card-stars">
+                                    <div class="social-stars-group">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/half-star-icon.svg" alt="">
                                     </div>
+                                    <span class="username">@Sampleson</span>
+                                </div>
+                                <p class="product-name">Product Name Right Here</p>
+                                <button class="main-btn"><a href="https://www.google.com/" target="_blank"> ADD TO
+                                        CART</a></button>
+                            </div>
 
-                                    <div class="social-card-content">
+                        </div>
 
-                                        <div class="social-card-left">
-                                            <img src="/asset/images/social-made.png" alt="">
-                                        </div>
+                    </div>
 
-                                        <div class="social-card-right">
-                                            <div class="social-card-stars">
-                                                <div class="social-stars-group">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/half-star-icon.svg" alt="">
-                                                </div>
-                                                <span class="username">@Sampleson</span>
+                    <div class="social-card">
+
+                        <div class="video-wrapper">
+                            <video class="social-video">
+                                <source src="/asset/videos/social-section/2.mp4" type="video/mp4">
+                            </video>
+
+                            <div class="play-toggle">
+
+                                <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                                <img style="width: 18px;" class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="social-card-content">
+
+                            <div class="social-card-left">
+                                <img src="/asset/images/social-made.png" alt="">
+                            </div>
+
+                            <div class="social-card-right">
+                                <div class="social-card-stars">
+                                    <div class="social-stars-group">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/half-star-icon.svg" alt="">
+                                    </div>
+                                    <span class="username">@Sampleson</span>
+                                </div>
+                                <p class="product-name">Product Name Right Here</p>
+                                <button class="main-btn"><a href="https://www.google.com/" target="_blank"> ADD TO
+                                        CART</a></button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="social-card">
+
+                        <div class="video-wrapper">
+                            <video class="social-video">
+                                <source src="/asset/videos/social-section/3.mp4" type="video/mp4">
+                            </video>
+
+                            <div class="play-toggle">
+
+                                <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                                <img style="width: 18px;" class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="social-card-content">
+
+                            <div class="social-card-left">
+                                <img src="/asset/images/social-made.png" alt="">
+                            </div>
+
+                            <div class="social-card-right">
+                                <div class="social-card-stars">
+                                    <div class="social-stars-group">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                        <img src="/asset/icons/half-star-icon.svg" alt="">
+                                    </div>
+                                    <span class="username">@Sampleson</span>
+                                </div>
+                                <p class="product-name">Product Name Right Here</p>
+                                <button class="main-btn"><a href="https://www.google.com/" target="_blank"> ADD TO
+                                        CART</a></button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- social made for mobile -->
+                <div class="social-made-container-mobile">
+
+                    <div class="social-swiper-inner">
+                        <div class="swiper socialSwiper">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="social-card">
+                                        <div class="video-wrapper">
+                                            <video class="social-video">
+                                                <source src="/asset/videos/social-section/1.mp4" type="video/mp4">
+                                            </video>
+
+                                            <div class="play-toggle">
+
+                                                <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                                                <img class="icon-pause" src="/asset/icons/pause-icon.svg" alt="">
                                             </div>
-                                            <p class="product-name">Product Name Right Here</p>
-                                            <button class="main-btn"><a href="https://www.google.com/" target="_blank">
-                                                    ADD TO CART</a></button>
+
                                         </div>
 
-                                    </div>
-                                </div>
-                            </div>
+                                        <div class="social-card-content">
 
-                            <div class="swiper-slide">
-                                <div class="social-card">
-
-                                    <div class="video-wrapper">
-                                        <video class="social-video">
-                                            <source src="/asset/videos/social-section/2.mp4" type="video/mp4">
-                                        </video>
-
-                                        <div class="play-toggle">
-
-                                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                                            <img style="width: 18px;" class="icon-pause"
-                                                src="/asset/icons/pause-icon.svg" alt="">
-                                        </div>
-                                    </div>
-
-                                    <div class="social-card-content">
-
-                                        <div class="social-card-left">
-                                            <img src="/asset/images/social-made.png" alt="">
-                                        </div>
-
-                                        <div class="social-card-right">
-                                            <div class="social-card-stars">
-                                                <div class="social-stars-group">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/half-star-icon.svg" alt="">
-                                                </div>
-                                                <span class="username">@Sampleson</span>
+                                            <div class="social-card-left">
+                                                <img src="/asset/images/social-made.png" alt="">
                                             </div>
-                                            <p class="product-name">Product Name Right Here</p>
-                                            <button class="main-btn"><a href="https://www.google.com/" target="_blank">
-                                                    ADD TO CART</a></button>
-                                        </div>
 
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="social-card">
-
-                                    <div class="video-wrapper">
-                                        <video class="social-video">
-                                            <source src="/asset/videos/social-section/3.mp4" type="video/mp4">
-                                        </video>
-
-                                        <div class="play-toggle">
-
-                                            <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
-                                            <img style="width: 18px;" class="icon-pause"
-                                                src="/asset/icons/pause-icon.svg" alt="">
-                                        </div>
-
-                                    </div>
-
-                                    <div class="social-card-content">
-
-                                        <div class="social-card-left">
-                                            <img src="/asset/images/social-made.png" alt="">
-                                        </div>
-
-                                        <div class="social-card-right">
-                                            <div class="social-card-stars">
-                                                <div class="social-stars-group">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/fill-star-icon.svg" alt="">
-                                                    <img src="/asset/icons/half-star-icon.svg" alt="">
+                                            <div class="social-card-right">
+                                                <div class="social-card-stars">
+                                                    <div class="social-stars-group">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/half-star-icon.svg" alt="">
+                                                    </div>
+                                                    <span class="username">@Sampleson</span>
                                                 </div>
-                                                <span class="username">@Sampleson</span>
+                                                <p class="product-name">Product Name Right Here</p>
+                                                <button class="main-btn"><a href="https://www.google.com/"
+                                                        target="_blank">
+                                                        ADD TO CART</a></button>
                                             </div>
-                                            <p class="product-name">Product Name Right Here</p>
-                                            <button class="main-btn"><a href="https://www.google.com/" target="_blank">
-                                                    ADD TO CART</a></button>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="social-card">
+
+                                        <div class="video-wrapper">
+                                            <video class="social-video">
+                                                <source src="/asset/videos/social-section/2.mp4" type="video/mp4">
+                                            </video>
+
+                                            <div class="play-toggle">
+
+                                                <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                                                <img style="width: 18px;" class="icon-pause"
+                                                    src="/asset/icons/pause-icon.svg" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="social-card-content">
+
+                                            <div class="social-card-left">
+                                                <img src="/asset/images/social-made.png" alt="">
+                                            </div>
+
+                                            <div class="social-card-right">
+                                                <div class="social-card-stars">
+                                                    <div class="social-stars-group">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/half-star-icon.svg" alt="">
+                                                    </div>
+                                                    <span class="username">@Sampleson</span>
+                                                </div>
+                                                <p class="product-name">Product Name Right Here</p>
+                                                <button class="main-btn"><a href="https://www.google.com/"
+                                                        target="_blank">
+                                                        ADD TO CART</a></button>
+                                            </div>
+
                                         </div>
 
                                     </div>
                                 </div>
+
+                                <div class="swiper-slide">
+                                    <div class="social-card">
+
+                                        <div class="video-wrapper">
+                                            <video class="social-video">
+                                                <source src="/asset/videos/social-section/3.mp4" type="video/mp4">
+                                            </video>
+
+                                            <div class="play-toggle">
+
+                                                <img class="icon-play" src="/asset/icons/play-icon.svg" alt="">
+                                                <img style="width: 18px;" class="icon-pause"
+                                                    src="/asset/icons/pause-icon.svg" alt="">
+                                            </div>
+
+                                        </div>
+
+                                        <div class="social-card-content">
+
+                                            <div class="social-card-left">
+                                                <img src="/asset/images/social-made.png" alt="">
+                                            </div>
+
+                                            <div class="social-card-right">
+                                                <div class="social-card-stars">
+                                                    <div class="social-stars-group">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/fill-star-icon.svg" alt="">
+                                                        <img src="/asset/icons/half-star-icon.svg" alt="">
+                                                    </div>
+                                                    <span class="username">@Sampleson</span>
+                                                </div>
+                                                <p class="product-name">Product Name Right Here</p>
+                                                <button class="main-btn"><a href="https://www.google.com/"
+                                                        target="_blank">
+                                                        ADD TO CART</a></button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
-
-
                         </div>
+
+                        <div class="social-swiper-arrows">
+                            <img src="/asset//icons/social-left-arrow.svg" alt="left arrow"
+                                class="social-swiper-prev arrow" />
+
+                            <img src="/asset//icons/social-right-arrow.svg" alt="right arrow"
+                                class="social-swiper-next arrow" />
+                        </div>
+
                     </div>
 
-                    <div class="social-swiper-arrows">
-                        <img src="/asset//icons/social-left-arrow.svg" alt="left arrow"
-                            class="social-swiper-prev arrow" />
-
-                        <img src="/asset//icons/social-right-arrow.svg" alt="right arrow"
-                            class="social-swiper-next arrow" />
-                    </div>
 
                 </div>
 
-
-            </div>
-
-        </section>
+            </section>
+        </div>
 
     </div>
 
