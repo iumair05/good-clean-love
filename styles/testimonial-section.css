@@ -65,6 +65,10 @@
 }
 
 @media (max-width: 768px) {
+  .testimonial-section {
+    height: 258px;
+    padding: 48px 0 24px 0;
+  }
   .testimonialSwiper .swiper-slide {
     width: 292px;
     border-right: none;
