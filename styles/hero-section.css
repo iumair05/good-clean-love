@@ -65,8 +65,7 @@
 
   border: none;
   color: var(--primary-color);
-  width: 143px;
-  height: 38px;
+  padding: 9px 18px;
   cursor: pointer;
 }
 

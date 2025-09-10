@@ -50,11 +50,6 @@
   line-height: 24px;
 }
 
-.news-letter-form button {
-  width: 109px;
-  height: 38px;
-}
-
 .footer-links-wrapper {
   margin-top: 36px;
   padding-top: 36px;
@@ -66,7 +61,7 @@
 .footer-links-wrapper .logo {
   max-width: 346px;
   width: 100%;
-  height: 181px;
+  min-height: 181px;
 }
 
 .footer-links-wrapper .social-links {
@@ -171,10 +166,10 @@
   }
 
   .footer-links-wrapper .logo {
-    max-width: 266px;
-    width: 100%;
-    height: 140px;
-  }
+  max-width: 266px;
+  width: 100%;
+  min-height: 141px;
+}
 
   .footer-links-right {
     flex-direction: column;

@@ -35,7 +35,7 @@
 
 .social-video {
   width: 100%;
-  height: auto;
+  max-height: 736px;
   border-radius: 20px;
   display: block;
 }
@@ -77,8 +77,7 @@
 }
 
 .social-card-left img {
-  width: 96px;
-  height: 96px;
+  max-width: 96px;
   border: 2px solid var(--primary-color);
   border-radius: 10px;
 }
@@ -115,8 +114,6 @@
 
 .social-card-right button {
   margin-top: 9px;
-  width: 169px;
-  height: 38px;
 }
 
 .social-made-container-mobile {
@@ -145,9 +142,10 @@
     position: relative;
   }
 
+
   .socialSwiper {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .socialSwiper .swiper-slide {
@@ -183,10 +181,8 @@
     gap: 10px;
   }
 
-
   .social-card-left img {
-    width: 86px;
-    height: 86px;
+    max-width: 86px;
     border: 2px solid var(--primary-color);
     border-radius: 10px;
   }

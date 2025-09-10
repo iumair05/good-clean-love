@@ -16,6 +16,7 @@
   font-size: 18px;
   line-height: 24px;
   border-bottom: 1px solid var(--border-color);
+  padding-bottom: 3px;
 }
 
 .middle-line {
@@ -89,8 +90,8 @@
 }
 
 .rating-container .stars-group img {
-  width: 20px;
-  height: 20px;
+  max-width: 20px;
+  max-height: 20px;
   object-fit: cover;
   object-position: center;
 }
@@ -119,7 +120,7 @@ label {
 
 select {
   width: 100%;
-  padding: 10px 40px 10px 12px;
+  padding: 9px;
   border: 1px solid #69c04b;
   border-radius: 50px;
   background-color: #f9f9f9;
@@ -163,9 +164,7 @@ select:focus {
 }
 
 .purchase-btn button {
-  max-width: 196px;
-  width: 100%;
-  height: 66px;
+  padding: 9px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -186,8 +185,7 @@ select:focus {
 .cart-btn {
   margin-top: 27px;
   width: 100%;
-  height: 38px;
-
+  padding: 9px 18px;
   border: none;
   border-radius: 30px;
   background-color: var(--primary-color);
@@ -241,7 +239,7 @@ select:focus {
   }
   .bestSellerSwiper {
     width: 100%;
-    height: 100%;
+    max-height: 100%;
   }
 
   .best-seller-swiper-inner {
@@ -262,7 +260,7 @@ select:focus {
 
   .best-seller-card .seller-card-img {
     width: 335px;
-    height: 400px;
+    min-height: 400px;
     object-fit: cover;
     object-position: center;
     border-radius: 20px;
@@ -287,7 +285,6 @@ select:focus {
   .purchase-btn button {
     max-width: 165px;
     width: 100%;
-    height: 58px;
     line-height: 20px;
   }
 

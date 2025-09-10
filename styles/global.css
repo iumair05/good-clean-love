@@ -90,11 +90,12 @@ button {
   font-family: CircularXX;
   background-color: var(--primary-color);
   color: var(--text-color);
-   border: none;
+  border: none;
   border-radius: 30px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+  padding: 9px 18px;
   letter-spacing: 2.4px;
   cursor: pointer;
   text-transform: uppercase;
